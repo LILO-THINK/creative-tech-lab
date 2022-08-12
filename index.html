@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Creative Tech Lab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="i/favicon.png" type="image/x-icon">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- Bootstrap 4.5.2 CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+	<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+	<!-- FontAwesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<!-- Startup CSS (Styles for all blocks)  -->
+	<link href="css/style.css" rel="stylesheet" />
+	<!-- jQuery 3.5.1 -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+	<!-- Navigation Mobile -->
+	<a class="open_menu color-main bg-light radius_full">
+		<i class="fas fa-bars lh-40">
+		</i>
+	</a>
+	<div class="navigation_mobile bg-light type2">
+		<a class="close_menu color-main">
+			<i class="fas fa-times">
+			</i>
+		</a>
+		<div class="px-40 pt-60 pb-60 text-center inner">
+			<div>
+				<a href="#sobre" class="f-heading f-22 link color-main mb-20">
+					Sobre
+				</a>
+			</div>
+			<div>
+				<a href="#como" class="f-heading f-22 link color-main mb-20">
+					Como vai ser
+				</a>
+			</div>
+			<div>
+				<a href="#faq" class="f-heading f-22 link color-main mb-20">
+					F.A.Q.
+				</a>
+			</div>
+			<div>
+				<a href="#time" class="f-12 link color-main op-7 text-uppercase sp-20 mb-20">
+					Time
+				</a>
+			</div>
+			<div>
+				<a href="#" class="f-12 link color-main op-7 text-uppercase sp-20 mb-20">
+					Termos e condições
+				</a>
+			</div>
+			<div class="socials mt-60">
+				<a href="#" target="_blank" class="link color-main f-18 mx-10">
+					<i class="fab fa-twitter">
+					</i>
+				</a>
+				<a href="#" target="_blank" class="link color-main f-18 mx-10">
+					<i class="fab fa-facebook">
+					</i>
+				</a>
+				<a href="#" target="_blank" class="link color-main f-18 mx-10">
+					<i class="fab fa-instagram">
+					</i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Header -->
+	<header class="pt-175 pb-110 bg-dark color-filter-dark-6 header_6" data-bg-src="i/header.jpg"
+		data-bg-src-2x="i/header.jpg">
+		<nav class="header_menu_6 pt-30 pb-30 mt-30">
+			<div class="container mw-970 px-xl-0">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-lg-5 d-flex align-items-center" data-aos="fade-down" data-aos-delay="1000">
+						<a href="#sobre" class="link color-white f-18 medium mr-30">
+							Sobre
+						</a>
+						<a href="#como" class="link color-white f-18 medium mr-30">
+							Como vai ser
+						</a>
+						<a href="#faq" class="link color-white f-18 medium">
+							F.A.Q.
+						</a>
+					</div>
+					<div class="col-lg-2 text-center">
+						<a href="#" class="link img_link">
+							<img src="i/logo-white.svg" alt="Logo" class="img-fluid w-100" data-aos="fade-down"
+								data-aos-delay="750">
+						</a>
+					</div>
+					<div class="col-lg-5 d-flex justify-content-end align-items-center" data-aos="fade-down"
+						data-aos-delay="1000">
+						<a href="#inscricao" class="btn sm action-1 noradius">
+							Inscreva-se!
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="container px-xl-0 text-center">
+			<div class="mb-3 d-xl-none">
+				<a href="#" class="link img_link">
+					<img src="i/logo-white.svg" alt="Logo" class="img-fluid w-100" data-aos="fade-down"
+						data-aos-delay="0">
+				</a>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-9 mt-80" data-aos="fade-down" data-aos-delay="0">
+					<h1 class="color-white">
+						Interessado em um workshop de cocriação com eletrônica, tinta condutiva e ilustração? Esse
+						encontro é para você!
+					</h1>
+				</div>
+				<!-- <div class="col-lg-12 relative h-70 mt-80 mb-70 btn_holder" data-aos="fade-down" data-aos-delay="250">
+					<a href="https://www.youtube.com/embed/RcTFVcoibI0?rel=0&amp;showinfo=0" class="btn red play"
+						target="_blank" data-fancybox="header_6_fancybox">
+						<i class="fas fa-play">
+						</i>
+					</a>
+				</div> -->
+				<div class="mt-80 col-md-6 color-white f-18 medium text-adaptive" data-aos="fade-down"
+					data-aos-delay="500">
+					<div>
+						Vamos fazer juntos a ideação e protótipo de uma instalação interativa com ilustração, tinta
+						condutiva e som!
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Sobre -->
+	<section id="sobre" class="pt-105 pb-95 bg-light content_2">
+		<div class="container px-xl-0 text-center">
+			<div class="row justify-content-center">
+				<div class="col-xl-8 col-lg-10">
+					<h2 data-aos="fade-down" data-aos-delay="0">
+						Creative Tech Lab
+					</h2>
+				</div>
+				<div class="col-xl-7 col-lg-9 col-md-10">
+					<div class="mt-35 f-18 medium color-main op-7 text-adaptive" data-aos="fade-down"
+						data-aos-delay="250">
+						O Learning Village, em conjunto com o Instagrafite e o LILO.THINK, preparou um dia de imersão
+						para cocriar uma instalação na parede do 8º andar do edifício mais inovador de São Paulo.
+						<br><br>
+						Uma mistura de workshop em eletrônica e fabricação de tinta condutiva com a ideação e
+						prototipação junto com os artistas. O processo está aberto a designers, arquitetos, ilustradores
+						e interessados no tema de criatividade e tecnologia.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Save the date -->
+	<section class="pt-100 pb-100 bg-light content_14" data-bg-src="i/content_14_bg@2x.jpg"
+		data-bg-src-2x="i/content_14_bg@2x.jpg">
+		<div class="container px-xl-0 noradius">
+			<div class="row justify-content-center noradius">
+				<div class="col-xl-8 col-lg-9 col-md-10">
+					<div class="pt-55 pb-50 bg-light radius10 text-center inner noradius">
+						<div class="row justify-content-center">
+							<div class="col-xl-10 col-lg-11 col-md-10 col-11">
+								<div class="f-22 text-adaptive text-left bold f-heading action-2" data-aos="fade-down"
+									data-aos-delay="250">
+									QUANDO
+									<br>28 de agosto de 2022 (sábado) das 9h às 16h
+									<br>
+									<br> ONDE
+									<br>Learning Village - Rua Harmonia, 1250 - Vila Madalena
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Como vai ser -->
+	<section class="pt-105 pb-100 bg-light content_20">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center">
+				<div class="col-xl-10 col-lg-11">
+					<h2 class="small" data-aos="fade-down" data-aos-delay="0">
+						Como vai ser
+					</h2>
+					<div class="row">
+						<div class="mt-25 col-lg-10 inner">
+							<div class="pb-50 relative block">
+								<div class="content_20_line">
+								</div>
+								<div
+									class="bg-gray color-heading w-40 h-40 f-18 medium lh-40 text-center number">
+									1
+								</div>
+								<div class="ml-70 pt-10 block_inner" data-aos="fade-down" data-aos-delay="250">
+									<div class="f-heading f-18 medium">
+										Inscreva-se
+									</div>
+									<div class="mt-20 color-heading text-adaptive">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	
+									</div>
+								</div>
+							</div>
+							<div class="pb-50 relative block">
+								<div class="content_20_line">
+								</div>
+								<div
+									class="bg-gray color-heading w-40 h-40 f-18 medium lh-40 text-center number">
+									2
+								</div>
+								<div class="ml-70 pt-10 block_inner" data-aos="fade-down" data-aos-delay="250">
+									<div class="f-heading f-18 medium">
+										Twenty five awesome samples
+									</div>
+									<div class="mt-20 color-heading text-adaptive">
+										<div>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..
+										</div>
+										<div class="mt-35 d-sm-flex align-items-start video_block">
+											<a href="https://www.youtube.com/embed/etNm1xRy9aA?rel=0&amp;showinfo=0"
+												class="w-170 relative" target="_blank"
+												data-fancybox="content_20_fancybox">
+												<i class="fas fa-play color-white">
+												</i>
+												<img src="i/content_20_video_poster.jpg"
+													srcset="i/content_20_video_poster@2x.jpg 2x" alt="" class="radius6">
+											</a>
+											<div class="ml-30 mw-270 inner">
+												<div class="f-14 semibold text-uppercase sp-20 color-main">
+													Fell our design
+												</div>
+												<div class="mt-15 text-adaptive">
+													Startup Design Framework contains components which can easily be
+													integrated into almost any design.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="relative block">
+								<div
+									class="bg-gray color-heading w-40 h-40 f-18 medium lh-40 text-center number">
+									3
+								</div>
+								<div class="ml-70 pt-10 block_inner" data-aos="fade-down" data-aos-delay="250">
+									<div class="f-heading f-18 medium">
+										Variety of designs
+									</div>
+									<div class="mt-20 color-heading text-adaptive">
+										<div>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										</div>
+										<a href="#" class="btn mt-20 noradius action-1">
+											Learn More
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Video -->
+	<section class="bg-dark relative content_25" data-bg-src="i/content_25_bg@2x.jpg"
+		data-bg-src-2x="i/content_25_bg@2x.jpg" style="min-height: 800px;">
+		<a href="https://www.youtube.com/embed/etNm1xRy9aA?rel=0&amp;showinfo=0" class="play red" target="_blank"
+			data-fancybox="content_25_fancybox">
+			<i class="fas fa-play">
+			</i>
+		</a>
+	</section>
+	<!-- Inscrição -->
+	<section id="inscricao" class="pt-105 pb-100 bg-light contact_5">
+		<div class="container px-xl-0">
+			<div class="row">
+				<div class="col-xl-1">
+				</div>
+				<div class="col-xl-7 col-lg-9">
+					<h2 class="small" data-aos="fade-down" data-aos-delay="0">
+						Conte-nos sobre você
+					</h2>
+					<div class="mt-25 mb-25 f-22 color-heading text-adaptive" data-aos="fade-down" data-aos-delay="250">
+						Por favor, demonstre seu interesse até dia 22/08
+					</div>
+					<div data-aos="fade-down" data-aos-delay="250">
+					</div>
+				</div>
+			</div>
+			<div class="mt-40 row">
+				<div class="col-xl-1">
+				</div>
+				<div class="col-xl-8 col-lg-9">
+					<form action="form-handler.php" method="post">
+						<div class="row">
+							<div class="col-sm-6" data-aos="fade-down" data-aos-delay="0">
+								<input type="text" name="Nome" placeholder="Seu nome" required="required"
+									class="input mb-30 w-full border-gray focus-action-1 color-heading placeholder-heading noradius">
+							</div>
+							<div class="col-sm-6" data-aos="fade-down" data-aos-delay="500">
+								<input type="email" name="email" placeholder="Seu email" required="required"
+									class="input mb-30 w-full border-gray focus-action-1 color-heading placeholder-heading noradius">
+							</div>
+						</div>
+						<div class="row justify-content-between">
+							<div class="col-md-4 pr-md-0 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+								<input type="text" name="phone" placeholder="Seu telefone" required="required"
+									class="input mb-30 w-full border-gray focus-action-1 color-heading placeholder-heading noradius">
+							</div>
+							<div class="col-md-3 px-md-0 col-sm-6" data-aos="fade-down" data-aos-delay="500">
+								<select
+									class="input mb-30 w-full border-gray focus-action-1 color-heading placeholder-heading noradius"
+									name="budget" required="required">
+									<option disabled="disabled" selected="selected">
+										Budget
+									</option>
+									<option>
+										$1 000
+									</option>
+									<option>
+										$5 000
+									</option>
+								</select>
+							</div>
+							<div class="col-md-4 pl-md-0" data-aos="fade-down" data-aos-delay="750">
+								<select
+									class="input mb-30 w-full border-gray focus-action-1 color-heading placeholder-heading noradius"
+									name="company_size" required="required">
+									<option disabled="disabled" selected="selected">
+										Company Size
+									</option>
+									<option>
+										1-5 people
+									</option>
+									<option>
+										5-15 people
+									</option>
+									<option>
+										more than 15 people
+									</option>
+								</select>
+							</div>
+						</div>
+						<div data-aos="fade-down" data-aos-delay="0">
+							<textarea name="message" placeholder="Your message" required="required"
+								class="input mb-30 w-full radius10 border-gray focus-action-1 color-heading placeholder-heading noradius">
+											</textarea>
+						</div>
+						<div class="text-sm-right" data-aos="fade-down" data-aos-delay="0">
+							<button class="btn noradius size60 lg action-1">
+								Enviar
+							</button>
+						</div>
+					</form>
+				</div>
+				<div class="mt-30 mt-xl-0 col-xl-3 col-lg-4">
+					<div class="mb-10 f-22 title" data-aos="fade-down" data-aos-delay="500">
+						Dúvidas?
+					</div>
+					<div class="color-heading text-adaptive" data-aos="fade-down" data-aos-delay="500">
+						Precisa de ajuda? Você pode conferir nosso F.A.Q. para obter mais informações sobre o Creative
+						Tech Lab. Ainda com dúvidas? Não hesite em perguntar. Envie-nos um e-mail
+						diretamentecreativetechlab@gmail.com
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FAQ -->
+	<section id="faq" class="pt-105 pb-90 bg-light content_19">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center">
+				<div class="col-xl-10 col-lg-11">
+					<h2 class="small text-left text-lg-center" data-aos="fade-down" data-aos-delay="0">
+						F.A.Q. | Suas dúvidas respondidas!
+					</h2>
+					<div class="row justify-content-center justify-content-lg-between">
+						<div class="col-lg-6 mt-45 block" data-aos="fade-down" data-aos-delay="250">
+							<div class="f-heading medium f-18 title">
+								O que preciso saber para participar?
+							</div>
+							<div class="mt-10 color-heading text-adaptive">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+						</div>
+						<div class="col-lg-6 mt-45 block" data-aos="fade-down" data-aos-delay="250">
+							<div class="f-heading medium f-18 title">
+								Como chegar ao Learning Village?
+							</div>
+							<div class="mt-10 color-heading text-adaptive">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+						</div>
+						<div class="col-lg-6 mt-45 block" data-aos="fade-down" data-aos-delay="250">
+							<div class="f-heading medium f-18 title">
+								Precisa levar alguma coisa?
+							</div>
+							<div class="mt-10 color-heading text-adaptive">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+						</div>
+						<div class="col-lg-6 mt-45 block" data-aos="fade-down" data-aos-delay="250">
+							<div class="f-heading medium f-18 title">
+								Onde posso almoçar na região?
+							</div>
+							<div class="mt-10 color-heading text-adaptive">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+						</div>
+						<div class="col-lg-6 mt-45 block" data-aos="fade-down" data-aos-delay="250">
+							<div class="f-heading medium f-18 title">
+								Como funciona a questão da autoria das ideias?
+							</div>
+							<div class="mt-10 color-heading text-adaptive">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+						</div>
+						<div class="col-lg-6 mt-45 block" data-aos="fade-down" data-aos-delay="250">
+							<div class="f-heading medium f-18 title">
+								O que posso aprender?
+							</div>
+							<div class="mt-10 color-heading text-adaptive">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer class="pt-45 pb-45 bg-action-1 color-white text-center footer_8">
+		<div class="container px-xl-0">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-3 text-xl-left">
+					<a href="#" class="link img_link">
+						<img src="i/logo-white.svg" alt="Logo" class="img-fluid" data-aos="fade-down"
+							data-aos-delay="250">
+					</a>
+				</div>
+				<div class="mt-10 mb-10 my-xl-0 col-xl-6 lh-40" data-aos="fade-down" data-aos-delay="0">
+					<!-- <a href="#" class="link f-14 text-uppercase sp-20 color-white mr-15">
+						Tools
+					</a>
+					<a href="#" class="link f-14 text-uppercase sp-20 color-white mx-15">
+						FAQ
+					</a>
+					<a href="#" class="link f-14 text-uppercase sp-20 color-white mx-15">
+						Privacy
+					</a>
+					<a href="#" class="link f-14 text-uppercase sp-20 color-white mx-15">
+						Terms &amp; Conditions
+					</a>
+					<a href="#" class="link f-14 text-uppercase sp-20 color-white ml-15">
+						Contact
+					</a> -->
+				</div>
+				<div class="col-lg-3 text-xl-right socials" data-aos="fade-down" data-aos-delay="250">
+					<a href="#" class="mr-15 w-40 btn sm border-transparent-white px-0">
+						<i class="fab fa-twitter">
+						</i>
+					</a>
+					<a href="#" class="mx-15 w-40 btn sm border-transparent-white px-0">
+						<i class="fab fa-facebook-f">
+						</i>
+					</a>
+					<a href="#" class="ml-15 w-40 btn sm border-transparent-white px-0">
+						<i class="fab fa-google">
+						</i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- forms alerts -->
+	<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		Thanks for your message!
+	</div>
+	<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		Please, fill in required fields.
+	</div>
+	<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+				aria-hidden="true">&times;</span></button>
+		<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and
+			check how to set form data sending <a href="https://designmodo.com/startup/documentation/#form-handler"
+				target="_blank" class="link color-transparent-white">here</a>.</div>
+	</div>
+
+
+	<!-- Bootstrap 4.5.2 JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+	<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+	<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+	<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<!-- Startup JS (Custom js for all blocks) -->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
